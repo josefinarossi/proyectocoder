@@ -1,0 +1,400 @@
+/* all fonts */
+
+@font-face {
+    font-family: lato-thin;
+    src: url("../assets/fonts/Lato-Thin.ttf");
+}
+
+@font-face {
+    font-family: lato-light;
+    src: url("../assets/fonts/Lato-Light.ttf");
+}
+
+@font-face {
+    font-family: lato-regular;
+    src: url("../assets/fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: lato-bold;
+    src: url("../assets/fonts/Lato-Bold.ttf");
+}
+
+/* reset */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* general style */
+
+html {
+    font-family: 'lato-regular';
+}
+
+img {
+    width: auto;
+    height: 55%;
+    max-height: 400px;
+    margin-bottom: 2%;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 74px auto 50px;
+    min-height: 100vh;
+}
+
+.navbar-main {
+    background-color: white !important;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 20px;
+}
+
+footer {
+    background-color: #10403B;
+    color: #8AA6A3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    bottom: 0;
+    margin: 0;
+}
+
+.footer-padding {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-text {
+    font-style: italic;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-right: 2%;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 20%;
+}
+
+a {
+    text-decoration: none;
+    color: #10403B;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* fonts & sizes */
+
+h1 {
+    font-size: 3em;
+}
+
+.subtitle {
+    font-family: lato-light;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+h5 {
+    font-family: lato-light;
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+/* index */
+
+.main-index {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-programs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.index-title {
+    margin: 30px;
+    text-align: center;
+}
+
+.index-card-stack {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 30px 30px 30px;
+}
+
+.index-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 20px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    height: 75px;
+}
+
+.index-card-text {
+    text-align: left;
+    margin: 0;
+}
+
+.index-tell-us {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #8AA6A3;
+}
+
+/* programs section styles */
+
+/* page title */
+
+.programs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.5%;
+    margin-bottom: 15px;
+    color: black;
+    font-size: 1.7em;
+    font-family: lato-bold;
+}
+
+/* graduate or undegraduate nav */
+
+.nav-grad-undergrad {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0%;
+}
+
+.nav-grad-active,
+.nav-undergrad-active {
+    font-size: 20px;
+    font-family: lato-bold;
+    border-bottom: solid 2.5px #10403B;
+    text-align: center;
+    width: 50%;
+    padding: 0.5%;
+    margin: 0.5% 2% 0.5% 2%
+}
+
+.nav-grad,
+.nav-undergrad {
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+    padding: 0.5%;
+    margin: 0.5% 2% 0.5% 2%
+}
+
+/* bootstrap cards */
+
+.program-cards {
+    margin: 1% 2% 10% 2%;
+}
+
+.card{
+    max-width: 500px;
+}
+
+.card-title {
+    font-family: lato-regular;
+    font-size: 1.3em;
+        }
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* degree list pages */
+
+/* title & button */
+
+.programs-display {
+    margin-bottom: 30px;
+    padding: 0 5% 0 5%;
+    display: grid;
+    grid-template-columns: 60% auto;
+    align-items: center;
+}
+
+.programs-title {
+    font-size: 1em;
+    margin: 0;
+    padding: 0 0 0 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.programs-title-h2 {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    align-items: center;
+}
+
+.goback-button {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+/* program collapse boxes */
+
+.programs-collapse {
+    margin: 3% 5% 3% 5%;
+}
+
+.programs-collapse-items {
+    margin-bottom: 3px;
+}
+
+.programs-collapse-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.programs-collapse-name {
+    margin: 5px 0 5px 0;
+    font-family: lato-bold;
+}
+
+/* other pages */
+
+.page-container {
+    margin: 10px 25px 10px 25px;
+}
+
+.page-sections {
+    margin-bottom: 30px;
+}
+
+@media (min-width: 576px) {
+    footer {
+        justify-content: right;
+        padding: 1%;
+    }
+
+    .footer-links {
+        width: 12%;
+    }
+    
+    h5 {
+        font-size: 1.1em;
+    }
+    .index-card-stack {
+        margin: 0 45px 30px 45px;
+    }
+    
+    .index-card {
+        padding: 20px 30px 20px 30px;
+        margin-bottom: 30px;
+        height: 100px;
+    }
+    .programs {
+        font-size: 1.9em;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 4em;
+    }
+    h5 {
+        font-size: 1.2em;
+    }
+    .subtitle{
+        font-size: 2em;
+    }
+    .index-card-stack {
+        margin: 30px 45px 30px 45px;
+    }
+    .index-tell-us {
+        padding: 10px;
+    }
+    .card-text {
+        margin: 10px 0 25px 0;
+    }
+    .programs-title {
+        font-size: 1.1em;
+    }
+    .programs-collapse-button{
+        padding: 2%;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer-links {
+        width: 9%;
+    }
+    h1 {
+        font-size: 5em;
+    }
+    h5 {
+        font-size: 1.3em;
+    }
+    .subtitle{
+        font-size: 2.2em;
+    }
+    .index-card-stack {
+        margin: 30px 55px 30px 55px;
+    }
+    .index-card {
+        height: 120px;
+    }
+    .index-tell-us {
+        margin: 8px;
+    }
+    .programs-title {
+        font-size: 1.3em;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    h1 {
+        font-size: 6em;
+    }
+    .programs-title {
+        font-size: 1.4em;
+    }
+}
