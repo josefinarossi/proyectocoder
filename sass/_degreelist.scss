@@ -1,0 +1,75 @@
+/* degree list pages */
+
+/* title & button */
+
+.programs-display {
+    margin-bottom: 30px;
+    padding: 0 5% 0 5%;
+    display: grid;
+    grid-template-columns: 60% auto;
+    align-items: center;
+
+    .programs-title {
+        font-size: 1em;
+        margin: 0;
+        padding: 0 0 0 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        @media (min-width: 768px) {
+            font-size: 1.1em;
+        }
+        @media (min-width: 992px) {
+            font-size: 1.3em;
+        }
+        @media (min-width: 1200px) {
+            font-size: 1.4em;
+        }
+    
+        .programs-title-h2 {
+            margin: 0;
+            padding: 0;
+            height: auto;
+            align-items: center;
+        }
+    }
+    
+    .goback-button {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }   
+}
+
+
+/* program collapse boxes */
+
+.programs-collapse {
+    margin: 3% 5% 3% 5%;
+
+    .programs-collapse-items {
+        margin-bottom: 3px;
+        
+        .programs-collapse-button {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            @media (min-width: 768px) {
+                    padding: 2%;
+            }
+            .programs-collapse-name {
+                margin: 5px 0 5px 0;
+                font-family: lato-bold;
+            }
+        }
+    }
+}
+
+
+
+
+
+

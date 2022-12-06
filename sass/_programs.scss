@@ -1,0 +1,74 @@
+
+.main-programs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* page title */ 
+    .programs {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0.5%;
+        margin-bottom: 15px;
+        color: black;
+        font-size: 1.7em;
+        font-family: lato-bold;
+        @media (min-width: 576px) {
+            font-size: 1.9em;
+        }
+    }
+
+    /* graduate or undegraduate nav */
+    .nav-grad-undergrad {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        padding: 0%;
+    
+        .nav-grad-active,
+        .nav-undergrad-active {
+            font-size: 20px;
+            font-family: lato-bold;
+            border-bottom: solid 2.5px #10403B;
+            text-align: center;
+            width: 50%;
+            padding: 0.5%;
+            margin: 0.5% 2% 0.5% 2%
+        }
+        
+        .nav-grad,
+        .nav-undergrad {
+            font-size: 20px;
+            text-align: center;
+            width: 50%;
+            padding: 0.5%;
+            margin: 0.5% 2% 0.5% 2%
+        }
+    }
+
+    /* bootstrap cards */
+    .program-cards {
+        margin: 1% 2% 10% 2%;
+    
+        div{
+
+            .cardmaxwidth{
+                max-width: 500px;
+            
+                .card-body {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                
+                    .card-title {
+                        font-family: lato-regular;
+                        font-size: 1.3em;
+                    }
+                }
+            }
+        }
+    }
+}
+
