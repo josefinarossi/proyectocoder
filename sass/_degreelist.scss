@@ -63,6 +63,9 @@
             .programs-collapse-name {
                 margin: 5px 0 5px 0;
                 font-family: lato-bold;
+                @media (min-width: 1200px) {
+                    font-size: 1.2em;
+                }    
             }
         }
     }
